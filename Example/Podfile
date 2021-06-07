@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MXDeviceAuthManage_Example' do
+  pod 'MXDeviceAuthManage', :path => '../'
+
+  target 'MXDeviceAuthManage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
