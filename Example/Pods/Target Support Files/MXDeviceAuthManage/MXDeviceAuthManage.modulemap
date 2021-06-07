@@ -1,0 +1,6 @@
+framework module MXDeviceAuthManage {
+  umbrella header "MXDeviceAuthManage-umbrella.h"
+
+  export *
+  module * { export * }
+}

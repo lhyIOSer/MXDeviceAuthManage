@@ -1,0 +1,16 @@
+PODS:
+  - MXDeviceAuthManage (0.0.1)
+
+DEPENDENCIES:
+  - MXDeviceAuthManage (from `../`)
+
+EXTERNAL SOURCES:
+  MXDeviceAuthManage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MXDeviceAuthManage: 2a1c470caf37ccbcdc93748aa19f8e79fe72c1cd
+
+PODFILE CHECKSUM: 8ee308d91de4a7290576e413f3de30f3abf51f71
+
+COCOAPODS: 1.10.1

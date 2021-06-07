@@ -1,0 +1,22 @@
+{
+  "name": "MXDeviceAuthManage",
+  "version": "0.0.1",
+  "summary": "获取iOS常见权限",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lhyIOSer/MXDeviceAuthManage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lhyIOSer": "tansan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lhyIOSer/MXDeviceAuthManage.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MXDeviceAuthManage/Classes/**/*"
+}
