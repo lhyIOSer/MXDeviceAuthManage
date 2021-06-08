@@ -22,7 +22,7 @@ pod 'MXDeviceAuthManage'
 
 ## Author
 
-xxx, tansan@gmail.com
+lhyIOSer, lhyIOSer@gmail.com
 
 ## License
 
