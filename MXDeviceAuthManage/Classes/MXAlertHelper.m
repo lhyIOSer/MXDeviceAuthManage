@@ -1,13 +1,13 @@
 //
-//  MXAlertViewHelper.m
+//  MXAlertHelper.m
 //  MXDeviceAuthManage
 //
 //  Created by mac on 2021/6/7.
 //
 
-#import "MXAlertViewHelper.h"
+#import "MXAlertHelper.h"
 
-@implementation MXAlertViewHelper
+@implementation MXAlertHelper
 
 + (void)showAlertViewWithMessage:(NSString*)message
                            title:(NSString*)title

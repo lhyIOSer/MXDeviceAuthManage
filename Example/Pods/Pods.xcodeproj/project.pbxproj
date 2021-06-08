@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		023063F6A85807CAA5C1D6AF957A99B4 /* MXDeviceAuthManage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCCD72532CBE5076702815E0DDF7C82 /* MXDeviceAuthManage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		048153CF266E2D7A00C0C53A /* MXAlertViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 048153CD266E2D7A00C0C53A /* MXAlertViewHelper.h */; };
-		048153D0266E2D7A00C0C53A /* MXAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 048153CE266E2D7A00C0C53A /* MXAlertViewHelper.m */; };
+		048153CF266E2D7A00C0C53A /* MXAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 048153CD266E2D7A00C0C53A /* MXAlertHelper.h */; };
+		048153D0266E2D7A00C0C53A /* MXAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 048153CE266E2D7A00C0C53A /* MXAlertHelper.m */; };
 		0901E1A7315079196A4A9DCB600635DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		357A9339D5785D8808AFB4CE875F1424 /* MXDeviceAuthManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2504F29D7360B558FFAF22E05C66E91D /* MXDeviceAuthManage.m */; };
 		3B9F5E386A875C8E2FB76BAED52F64D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -41,8 +41,8 @@
 
 /* Begin PBXFileReference section */
 		02115BA5CEA696B9815794C44E2B19F5 /* Pods-MXDeviceAuthManage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXDeviceAuthManage_Tests.modulemap"; sourceTree = "<group>"; };
-		048153CD266E2D7A00C0C53A /* MXAlertViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MXAlertViewHelper.h; path = MXDeviceAuthManage/Classes/MXAlertViewHelper.h; sourceTree = "<group>"; };
-		048153CE266E2D7A00C0C53A /* MXAlertViewHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MXAlertViewHelper.m; path = MXDeviceAuthManage/Classes/MXAlertViewHelper.m; sourceTree = "<group>"; };
+		048153CD266E2D7A00C0C53A /* MXAlertHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MXAlertHelper.h; path = MXDeviceAuthManage/Classes/MXAlertHelper.h; sourceTree = "<group>"; };
+		048153CE266E2D7A00C0C53A /* MXAlertHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MXAlertHelper.m; path = MXDeviceAuthManage/Classes/MXAlertHelper.m; sourceTree = "<group>"; };
 		10BD20B489105D86CF9EA88329C9EA1E /* Pods-MXDeviceAuthManage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXDeviceAuthManage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		110D2EEB39FDD30FEFCE84FA955ADF7E /* Pods-MXDeviceAuthManage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXDeviceAuthManage_Tests-Info.plist"; sourceTree = "<group>"; };
 		245191ECDC2862818D77560F717C8806 /* MXDeviceAuthManage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXDeviceAuthManage-dummy.m"; sourceTree = "<group>"; };
@@ -109,8 +109,8 @@
 		205B7F20F884596470FE843BDC3B8A6E /* MXDeviceAuthManage */ = {
 			isa = PBXGroup;
 			children = (
-				048153CD266E2D7A00C0C53A /* MXAlertViewHelper.h */,
-				048153CE266E2D7A00C0C53A /* MXAlertViewHelper.m */,
+				048153CD266E2D7A00C0C53A /* MXAlertHelper.h */,
+				048153CE266E2D7A00C0C53A /* MXAlertHelper.m */,
 				637D302D4C5F8933D61401EE0F750B73 /* MXDeviceAuthManage.h */,
 				2504F29D7360B558FFAF22E05C66E91D /* MXDeviceAuthManage.m */,
 				67A5EB814371FCB7B0AC7FD2C30CD0CC /* Pod */,
@@ -249,7 +249,7 @@
 			files = (
 				023063F6A85807CAA5C1D6AF957A99B4 /* MXDeviceAuthManage-umbrella.h in Headers */,
 				CD966541AA97A3A1B493E764672C59D9 /* MXDeviceAuthManage.h in Headers */,
-				048153CF266E2D7A00C0C53A /* MXAlertViewHelper.h in Headers */,
+				048153CF266E2D7A00C0C53A /* MXAlertHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +388,7 @@
 			files = (
 				D8B647CF9DBBE88C504679DF9CD24DE9 /* MXDeviceAuthManage-dummy.m in Sources */,
 				357A9339D5785D8808AFB4CE875F1424 /* MXDeviceAuthManage.m in Sources */,
-				048153D0266E2D7A00C0C53A /* MXAlertViewHelper.m in Sources */,
+				048153D0266E2D7A00C0C53A /* MXAlertHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

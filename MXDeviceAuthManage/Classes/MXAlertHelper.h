@@ -1,5 +1,5 @@
 //
-//  MXAlertViewHelper.h
+//  MXAlertHelper.h
 //  MXDeviceAuthManage
 //
 //  Created by mac on 2021/6/7.
@@ -11,7 +11,7 @@ typedef void(^MXAlertViewCompletionBlock)(BOOL cancelled, NSInteger buttonIndex)
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MXAlertViewHelper : NSObject
+@interface MXAlertHelper : NSObject
 
 + (void)showAlertViewWithMessage:(NSString*)message
                            title:(NSString*)title

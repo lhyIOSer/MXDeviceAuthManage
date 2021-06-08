@@ -7,7 +7,7 @@
 //
 
 #import "MXDeviceAuthManage.h"
-#import "MXAlertViewHelper.h"
+#import "MXAlertHelper.h"
 
 #import <AVFoundation/AVFoundation.h>
 #import <Contacts/Contacts.h>
@@ -262,7 +262,7 @@
 
 + (void)alterDeviceAuthod:(MXDeviceAuthorization)authType complete:(void(^)(BOOL))complete{
     NSString *trips = [self authodTrips:authType];
-    [MXAlertViewHelper showAlertViewWithMessage:trips title:@"提示"
+    [MXAlertHelper showAlertViewWithMessage:trips title:@"提示"
                                         okTitle:@"去设置"
                                     cancelTitle:@"取消"
                                      completion:^(BOOL cancelled, NSInteger buttonIndex) {
