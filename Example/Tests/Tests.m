@@ -2,8 +2,8 @@
 //  MXDeviceAuthManageTests.m
 //  MXDeviceAuthManageTests
 //
-//  Created by 唐三 on 06/07/2021.
-//  Copyright (c) 2021 唐三. All rights reserved.
+//  Created by xxx on 06/07/2021.
+//  Copyright (c) 2021 xxx. All rights reserved.
 //
 
 @import XCTest;

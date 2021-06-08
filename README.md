@@ -1,6 +1,6 @@
 # MXDeviceAuthManage
 
-[![CI Status](https://img.shields.io/travis/唐三/MXDeviceAuthManage.svg?style=flat)](https://travis-ci.org/唐三/MXDeviceAuthManage)
+[![CI Status](https://img.shields.io/travis/xxx/MXDeviceAuthManage.svg?style=flat)](https://travis-ci.org/xxx/MXDeviceAuthManage)
 [![Version](https://img.shields.io/cocoapods/v/MXDeviceAuthManage.svg?style=flat)](https://cocoapods.org/pods/MXDeviceAuthManage)
 [![License](https://img.shields.io/cocoapods/l/MXDeviceAuthManage.svg?style=flat)](https://cocoapods.org/pods/MXDeviceAuthManage)
 [![Platform](https://img.shields.io/cocoapods/p/MXDeviceAuthManage.svg?style=flat)](https://cocoapods.org/pods/MXDeviceAuthManage)
@@ -22,7 +22,7 @@ pod 'MXDeviceAuthManage'
 
 ## Author
 
-唐三, tansan@gmail.com
+xxx, tansan@gmail.com
 
 ## License
 
